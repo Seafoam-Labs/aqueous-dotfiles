@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# Common dialogs, matched by title across all apps
+# Common dialogs set to float in center of screen
 # -----------------------------------------------------------------------------
 [[window]]
 title            = "Open File*"
