@@ -1,0 +1,78 @@
+# -----------------------------------------------------------------------------
+# Common dialogs set to float in center of screen
+# -----------------------------------------------------------------------------
+[[window]]
+title            = "Open File*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Authentication"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Open Folder*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Select*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Choose a wallpaper*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Choose Where to Download*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Save As*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Library*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "File Operation Progress*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Rename*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Copy Files*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Move Files*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Search Files*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+title            = "Wizard*"
+floating         = true
+placement_policy = "center"
+
+[[window]]
+app_id           = "opensnitch_ui"
+title            = "OpenSnitch v*"
+floating         = true
+placement_policy = "center"
