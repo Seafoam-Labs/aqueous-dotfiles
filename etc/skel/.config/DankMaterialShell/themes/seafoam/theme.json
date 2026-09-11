@@ -1,0 +1,30 @@
+{
+  "id": "seafoam",
+  "name": "Seafoam Labs",
+  "version": "1.0.0",
+  "author": "jiibus",
+  "description": "Come get some Seafoam Labs love!",
+  "dark": {
+    "matugen_type": "scheme-expressive",
+    "primary": "#2dd4a8",
+    "primaryText": "#0f172a",
+    "primaryContainer": "#14b8a6",
+    "secondary": "#7c3aed",
+    "surfaceTint": "#2dd4a8",
+    "surface": "#1e293b",
+    "surfaceText": "#f1f5f9",
+    "surfaceVariant": "#253449",
+    "surfaceVariantText": "#94a3b8",
+    "background": "#0f172a",
+    "backgroundText": "#f1f5f9",
+    "outline": "#334155",
+    "surfaceContainerLowest": "#0b1221",
+    "surfaceContainerLow": "#131f2e",
+    "surfaceContainer": "#1a2636",
+    "surfaceContainerHigh": "#2d3f59",
+    "surfaceContainerHighest": "#334155",
+    "error": "#ec4899",
+    "warning": "#a78bfa",
+    "info": "#5eead4"
+  }
+}
