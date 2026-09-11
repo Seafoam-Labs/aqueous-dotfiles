@@ -26,5 +26,28 @@
     "error": "#ec4899",
     "warning": "#a78bfa",
     "info": "#5eead4"
+  },
+  "light": {
+    "matugen_type": "scheme-expressive",
+    "primary": "#38bdf8",
+    "primaryText": "#0f172a",
+    "primaryContainer": "#e0f2fe",
+    "secondary": "#2dd4a8",
+    "surfaceTint": "#a78bfa",
+    "surface": "#f5f3ff",
+    "surfaceText": "#0f172a",
+    "surfaceVariant": "#ede9fe",
+    "surfaceVariantText": "#5b21b6",
+    "background": "#f8fafc",
+    "backgroundText": "#0f172a",
+    "outline": "#ddd6fe",
+    "surfaceContainerLowest": "#faf5ff",
+    "surfaceContainerLow": "#f5f3ff",
+    "surfaceContainer": "#ede9fe",
+    "surfaceContainerHigh": "#ddd6fe",
+    "surfaceContainerHighest": "#c4b5fd",
+    "error": "#ec4899",
+    "warning": "#f472b6",
+    "info": "#c4b5fd"
   }
 }
