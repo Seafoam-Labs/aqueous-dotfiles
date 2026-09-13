@@ -76,3 +76,4 @@ app_id           = "opensnitch_ui"
 title            = "OpenSnitch v*"
 floating         = true
 placement_policy = "center"
+stack_layer      = "above"
