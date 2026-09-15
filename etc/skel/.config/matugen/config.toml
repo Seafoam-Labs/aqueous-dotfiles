@@ -9,7 +9,7 @@ input_path = '/usr/share/aqueous/settings-application/themes/dms.json.in'
 output_path = '~/.cache/aqueous/settings-application/themes/dms.json'
 
 [templates.equibop]
-input_path = '~/.config/matugen/templates/discord-midnight.css'
+input_path = '~/.config/matugen/templates/discord.css'
 output_path = '~/.config/equibop/themes/midnight.css'
 
 [templates.steam]
