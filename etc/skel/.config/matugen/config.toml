@@ -12,6 +12,10 @@ output_path = '~/.config/equibop/themes/midnight.css'
 input_path = '~/.config/matugen/templates/fluxer.css'
 output_path = '~/.config/matugen/theme_output/fluxer_matugen.css'
 
+[templates.obsidian]
+input_path = '~/.config/matugen/templates/obsidian.css'
+output_path = '/path/to/your/vault/.obsidian/snippets/matugen.css'
+
 [templates.starship]
 input_path = '~/.config/matugen/templates/starship.toml'
 output_path = '~/.config/starship.toml'
