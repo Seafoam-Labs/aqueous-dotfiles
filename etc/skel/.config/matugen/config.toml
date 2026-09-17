@@ -20,3 +20,7 @@ output_path = '~/.config/starship.toml
 input_path = '~/.config/matugen/templates/steam.css'
 output_path = '~/.config/AdwSteamGtk/custom.css'
 post_hook = 'adwaita-steam-gtk -i'
+
+[templates.zed]
+input_path = '~/.config/matugen/templates/zed-colors.json'
+output_path = '~/.config/zed/themes/matugen.json'
