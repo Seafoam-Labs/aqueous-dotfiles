@@ -1,0 +1,239 @@
+{
+  "id": "gruvbus",
+  "name": "Gruvbus",
+  "version": "1.2.0",
+  "author": "jiibus",
+  "description": "Classic gruvbox, medium contrast, one dark and one light mode, with a pickable primary accent. Orange by default.",
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+        "flavor": "gruvbus-dark",
+        "accent": "orange"
+      },
+      "light": {
+        "flavor": "gruvbus-light",
+        "accent": "orange"
+      }
+    },
+    "flavors": [
+      {
+        "id": "gruvbus-dark",
+        "name": "Gruvbus",
+        "mode": "dark",
+        "dark": {
+          "surface": "#282828",
+          "surfaceVariant": "#3c3836",
+          "background": "#282828",
+          "surfaceContainerLowest": "#1d2021",
+          "surfaceContainerLow": "#32302f",
+          "surfaceContainer": "#3c3836",
+          "surfaceContainerHigh": "#504945",
+          "surfaceContainerHighest": "#665c54",
+          "surfaceDim": "#1d2021",
+          "surfaceBright": "#504945",
+          "surfaceText": "#ebdbb2",
+          "surfaceVariantText": "#d5c4a1",
+          "backgroundText": "#ebdbb2",
+          "outline": "#7c6f64",
+          "outlineVariant": "#504945",
+          "error": "#fb4934",
+          "warning": "#fabd2f",
+          "info": "#83a598",
+          "success": "#b8bb26",
+          "shadow": "#1d2021",
+          "matugen_type": "scheme-fruit-salad"
+        }
+      },
+      {
+        "id": "gruvbus-light",
+        "name": "Gruvbus",
+        "mode": "light",
+        "light": {
+          "surface": "#fbf1c7",
+          "surfaceVariant": "#ebdbb2",
+          "background": "#fbf1c7",
+          "surfaceContainerLowest": "#f9f5d7",
+          "surfaceContainerLow": "#f2e5bc",
+          "surfaceContainer": "#ebdbb2",
+          "surfaceContainerHigh": "#d5c4a1",
+          "surfaceContainerHighest": "#bdae93",
+          "surfaceDim": "#d5c4a1",
+          "surfaceBright": "#f9f5d7",
+          "surfaceText": "#282828",
+          "surfaceVariantText": "#504945",
+          "backgroundText": "#282828",
+          "outline": "#a89984",
+          "outlineVariant": "#bdae93",
+          "error": "#9d0006",
+          "warning": "#b57614",
+          "info": "#076678",
+          "success": "#79740e",
+          "shadow": "#000000"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "orange",
+        "name": "Orange",
+        "gruvbus-dark": {
+          "primary": "#fe8019",
+          "primaryText": "#282828",
+          "primaryContainer": "#d65d0e",
+          "secondary": "#b8bb26",
+          "tertiary": "#83a598",
+          "surfaceTint": "#4f3825"
+        },
+        "gruvbus-light": {
+          "primary": "#af3a03",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#fdad5f",
+          "secondary": "#427b58",
+          "tertiary": "#b57614",
+          "surfaceTint": "#edd0a4"
+        }
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "gruvbus-dark": {
+          "primary": "#fabd2f",
+          "primaryText": "#282828",
+          "primaryContainer": "#d79921",
+          "secondary": "#83a598",
+          "tertiary": "#fe8019",
+          "surfaceTint": "#4e4329"
+        },
+        "gruvbus-light": {
+          "primary": "#b57614",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#fad26c",
+          "secondary": "#076678",
+          "tertiary": "#af3a03",
+          "surfaceTint": "#eedba7"
+        }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "gruvbus-dark": {
+          "primary": "#b8bb26",
+          "primaryText": "#282828",
+          "primaryContainer": "#55521a",
+          "secondary": "#fe8019",
+          "tertiary": "#8ec07c",
+          "surfaceTint": "#424228"
+        },
+        "gruvbus-light": {
+          "primary": "#79740e",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#d3d166",
+          "secondary": "#af3a03",
+          "tertiary": "#427b58",
+          "surfaceTint": "#e4daa6"
+        }
+      },
+      {
+        "id": "aqua",
+        "name": "Aqua",
+        "gruvbus-dark": {
+          "primary": "#8ec07c",
+          "primaryText": "#282828",
+          "primaryContainer": "#365642",
+          "secondary": "#fe8019",
+          "tertiary": "#83a598",
+          "surfaceTint": "#3a4337"
+        },
+        "gruvbus-light": {
+          "primary": "#427b58",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#bad49a",
+          "secondary": "#af3a03",
+          "tertiary": "#076678",
+          "surfaceTint": "#dadcb3"
+        }
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "gruvbus-dark": {
+          "primary": "#83a598",
+          "primaryText": "#282828",
+          "primaryContainer": "#164a54",
+          "secondary": "#fe8019",
+          "tertiary": "#8ec07c",
+          "surfaceTint": "#383e3c"
+        },
+        "gruvbus-light": {
+          "primary": "#076678",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#b3c3ab",
+          "secondary": "#af3a03",
+          "tertiary": "#427b58",
+          "surfaceTint": "#cfd8b9"
+        }
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "gruvbus-dark": {
+          "primary": "#d3869b",
+          "primaryText": "#282828",
+          "primaryContainer": "#613550",
+          "secondary": "#fe8019",
+          "tertiary": "#83a598",
+          "surfaceTint": "#47393d"
+        },
+        "gruvbus-light": {
+          "primary": "#8f3f71",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#e3b1ad",
+          "secondary": "#af3a03",
+          "tertiary": "#076678",
+          "surfaceTint": "#e8d1b8"
+        }
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "gruvbus-dark": {
+          "primary": "#fb4934",
+          "primaryText": "#282828",
+          "primaryContainer": "#681215",
+          "secondary": "#8ec07c",
+          "tertiary": "#fabd2f",
+          "surfaceTint": "#4e2e2a"
+        },
+        "gruvbus-light": {
+          "primary": "#9d0006",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#fb8c6f",
+          "secondary": "#427b58",
+          "tertiary": "#b57614",
+          "surfaceTint": "#eac6a4"
+        }
+      },
+      {
+        "id": "sand",
+        "name": "Sand",
+        "gruvbus-dark": {
+          "primary": "#d5c4a1",
+          "primaryText": "#282828",
+          "primaryContainer": "#4a4540",
+          "secondary": "#fe8019",
+          "tertiary": "#8ec07c",
+          "surfaceTint": "#47443e"
+        },
+        "gruvbus-light": {
+          "primary": "#665c54",
+          "primaryText": "#fbf1c7",
+          "primaryContainer": "#e4d6b0",
+          "secondary": "#af3a03",
+          "tertiary": "#427b58",
+          "surfaceTint": "#e0d6b2"
+        }
+      }
+    ]
+  }
+}
