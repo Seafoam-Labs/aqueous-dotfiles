@@ -25,7 +25,7 @@ Windows = "\uf17a"
 Ubuntu = "\uf31b"
 SUSE = "\uef6d"
 Raspbian = "\uf315"
-Mint = "\udb82"
+Mint = "\ufb82"
 Macos = "\uf302"
 Manjaro = "\uf312"
 Linux = "\uf17c"
@@ -71,7 +71,7 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:teal"
-format = '[[ $symbol $branch ]](fg:on_accent bg:teal)]($style)'
+format = '[[ $symbol $branch ](fg:on_accent bg:teal)]($style)'
 
 [git_status]
 style = "bg:teal"
